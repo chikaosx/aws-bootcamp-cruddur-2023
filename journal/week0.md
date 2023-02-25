@@ -34,3 +34,10 @@ running this command "aws sts get-caller-identity" on my CLI will prompt this
 ARN is Amazon resource name
 
 I used CLI command "aws account get-contact-information" to get my account information
+
+# Installing AWS CLI on our repository
+Go to github click on gitpod it will open shell then run CLI installation command
+ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+ run ls -la to view all the file downloaded
+ 
+ i leant how to set enviroment variables using aws configure and how to use export
