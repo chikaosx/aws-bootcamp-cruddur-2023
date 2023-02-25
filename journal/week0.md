@@ -50,3 +50,21 @@ Setting up Budgets and Alerts: You learned how to set up budgets and alerts in A
 
 # AWS organizations
 AWS Organizations: You also learned about AWS Organizations, which is a service that allows you to centrally manage and govern multiple AWS accounts. With AWS Organizations, you can create groups of AWS accounts and apply policies to those groups, such as access controls and cost management policies. This allows you to manage your AWS resources more efficiently and effectively, especially if you have multiple accounts across different teams or business units.
+
+# Service control policy
+A Service Control Policy (SCP) is a type of policy in AWS Organizations that allows you to set permissions and restrictions on the actions that can be performed within an organization. SCPs are a way to centrally manage permissions across multiple AWS accounts, and they are applied at the root level of the organization.
+
+With an SCP, you can specify which AWS services and actions are allowed or denied for members of the organization, and you can also apply conditions based on various criteria, such as IP address or user agent. SCPs can be used to help enforce compliance and security policies, as well as to manage costs by limiting access to certain resources or services.
+
+It is important to note that SCPs are not the same as IAM policies, which are used to manage permissions within a single AWS account. SCPs are used to manage permissions across multiple accounts within an organization, and they are applied at the root level of the organization. SCPs cannot be used to grant permissions that are more permissive than those granted by an IAM policy.
+
+# Screen shoot of my week0 Napkin Design and lucid link to the design
+https://lucid.app/lucidchart/baa1735e-1d28-47d7-9d10-a5d9fb8f0a5b/edit?viewport_loc=-720%2C-72%2C3330%2C1386%2C0_0&invitationId=inv_0d361013-15e7-48bb-948d-66468f9c1190
+
+![image](https://user-images.githubusercontent.com/125705035/221379421-80247cc9-1af7-4087-a4e5-67271265fb2e.png)
+
+
+# Screenshot of my week0 Logical diagram and lucid link to the design
+https://lucid.app/lucidchart/a9863d84-50f9-428c-903b-c4e6271166e6/edit?viewport_loc=-633%2C-15%2C3330%2C1386%2C0_0&invitationId=inv_29271952-7c29-44ce-96e7-b425763843ab
+
+![image](https://user-images.githubusercontent.com/125705035/221379323-ae8c6498-e595-47b3-a049-df53b16dbfa6.png)
